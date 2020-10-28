@@ -1,0 +1,118 @@
+// присвоить каждому из следующих значений свою переменную: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false Вывести каждую при помощи console.log , alert, document.write
+// let hello = "hello";
+// let owu ="owu";
+// let com="com";
+// let ua="ua";
+// let one=1;
+// let ten=10;
+// let nine=-999;
+// let oneTwo=123;
+// let three=3.14;
+// let two=2.7;
+// let sixteen=16;
+// let t=true; 
+// let f=false;
+// console.log(hello);
+// alert(hello);
+// document.write(hello);
+// console.log(owu);
+// alert(owu);
+// document.write(owu);
+// console.log(com);
+// alert(com);
+// document.write(com);
+// console.log(ua);
+// alert(ua);
+// document.write(owu);
+// console.log(one);
+// alert(one);
+// document.write(one);
+// console.log(ten);
+// alert(ten);
+// document.write(ten);
+// console.log(nine);
+// alert(nine);
+// document.write(nine);
+// console.log(oneTwo);
+// alert(oneTwo);
+// document.write(oneTwo);
+// console.log(three);
+// alert(three);
+// document.write(three);
+// console.log(two);
+// alert(two);
+// document.write(two);
+// console.log(sixteen);
+// alert(sixteen);
+// document.write(sixteen);
+// console.log(t);
+// alert(t);
+// document.write(t);
+// console.log(f);
+// alert(f);
+// document.write(f);
+
+// переопределить каждую переменную из задания 1 дав им произвольные значения Вывести каждую при помощи console.log , alert, document.write
+//  hello = "bye";
+//  owu ="uwo";
+//  com="moc";
+//  ua="rus";
+//  one=-1;
+//  ten=-10;
+//  nine=999;
+//  oneTwo=-123;
+//  three=14.3;
+//  two=7.2;
+//  sixteen=61;
+//  t=false; 
+// f=true;
+// console.log(hello,owu,com,ua,one,ten,nine,oneTwo,three,two,sixteen,t,f);
+// alert(hello,owu,com,ua,one,ten,nine,oneTwo,three,two,sixteen,t,f);
+// document.write(hello,owu,com,ua,one,ten,nine,oneTwo,three,two,sixteen,t,f);
+
+// Создать 3 числовых и 3 стринговых константы. Вывести каждую при помощи console.log , alert, document.write
+// const a=3;
+// const b=5;
+// const c=6;
+// const q="Hello";
+// const w="Привет";
+// const e="Привіт";
+// console.log(a,b,c,q,w,e);
+// alert(a,b,c,q,w,e);
+// document.write(a,b,c,q,w,e);
+
+//  при помощи 3х разных prompt() получить 3 слова которые являются вашими ФИО. Для фамилии имени и отчества создать разные переменные. Вывести каждую при помощи console.log , alert, document.write
+// let name=prompt("name");
+// let surname=prompt(" surname");
+// let patronymic=prompt("patronymic");
+//  console.log(name,surname,patronymic);
+//  alert(name,surname,patronymic);
+//  document.write(name,surname,patronymic);
+
+// Взять переменные из задания 4 и сконкатенировать их в одной переменной person.
+// let person={name,surname,patronymic};
+// console.log(person);
+
+// при помощи prompt() получить 3 числа. Привести их к числовому типу при помощи +. вывести их в консоль.
+//  let a = +prompt("a");
+//  let b =+prompt("b");
+//  let c= +prompt("c");
+//  console.log(a,b,c);
+
+//  при помощи prompt() получить 4 числа. Привести их к числовому типу при помощи parseInt. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
+// let a=parseInt(prompt("a"));
+// let b=parseInt(prompt("b"));
+// let c=parseInt(prompt("c"));
+// let d=parseInt(prompt("d"));
+// let result={a,b,c,d};
+// console.log(a,b,c,d);
+
+// при помощи prompt()  получить 3 числа с плавающей точекой. при помощи parseFloat привести их к соответсвующему типу. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
+// let a=parseFloat(prompt("a"));
+// let b=parseFloat(prompt("b"));
+// let c=parseFloat(prompt("c"));
+// let result={a,b,c};
+// console.log(result);
+
+
+
