@@ -1,0 +1,105 @@
+// -- створити об'єкт (не меньше 5ти властивостей) який описує
+// - собаку
+// - людину
+// - автомобіль
+// - квартиру
+// - книгу
+// let object={dog : "Pitdull",person:"Max",car:"Honda",apartament:"Luxurt",book:"bestseller"};
+
+// -- Створити масив та вивести його в консоль:
+// - з 5 собак
+// - 3 5 людей
+// - з 5 автомобілів
+// let a=["Pitdill","poodle","bull terrier","German Shepherd","huskies","Max","Vasya","Kolya","Pavlo","Julia","Honda","Mitsubishi","Kia","Suzuki","Opel"];
+// console.log(a);
+
+// -- створити об'єкт (не меньше 5ти властивостей) який описує, одна з властивостей обов'язково повинна бути об'єктом,ще одна - масивом
+// - будинок
+// - водій
+// - іграшку
+// - стіл
+// - сумка
+// let object={house:{room:4,S:120^2},people:["Max","Vasya","Kolya","Pavlo","Julia"],plaything:"lego",table:"wood",handbag:"leather"};
+
+
+// Дан массив:
+// дозволити користувачам = [
+//  {ім'я: "вася", вік: 31 рік, стан: false},
+//  {ім'я: 'petya', вік: 30, статус: true},
+//  {ім'я: "коля", вік: 29 років, стан: true},
+//  {ім'я: "оля", вік: 28 років, стан: false},
+//  {ім'я: "макс", вік: 30, стан: true},
+//  {ім'я: 'anya', вік: 31, стан: false},
+//  {ім'я: "олег", вік: 28 років, стан: false},
+//  {ім'я: "Андрій", вік: 29 років, стан: true},
+//  {ім'я: "маша", вік: 30 років, стан: true},
+//  {ім'я: "оля", вік: 31 рік, стан: false},
+//  {ім'я: "макс", вік: 31, стан: true}
+// 			];
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+    // {name: 'masha', age: 30, status: true},
+    // {name: 'olya', age: 31, status: false},
+    // {name: 'max', age: 31, status: true}
+// ];
+// - звернутися в відповідну ячейку масиву і відповідний параметр об'єкта і вивести в консольх наступне
+// - статус Андрія
+// console.log(users[7].status)
+// - статус Максима
+// console.log(users[4].status,users[10].status);
+// - ім'я передостаннього об'єкту
+// console.log(users[9].name);
+// - ім'я третього об'єкта
+// console.log(users[2].name);
+// - вік Олега
+// console.log(users[6].age)
+// - вік Олі
+// console.log(users[9].age)
+// - вік + ім'я 5го об'єкта
+// console.log(users[4].name,users[4].age);
+// - вік + сатус Анни
+// console.log(users[5].age, users[5].status)
+// Приклад: вивести ім'я 1го об'єкта. У 1990-х х х 1990-х х 1990-х х 1990-х х 199 Будьте уважні! 4й об'єкт має індес 3!
+
+
+// -Шаблон 1.html, мотикий до шитт, і формат в ши.
+
+// -- Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
+// - отримує текст з параграфа з id "content"
+// let b=document.getElementById('content');
+// console.log(b);
+
+// - отримує текст з блоку з id "rules"
+// let rules=document.getElementById('rules');
+// console.log(rules);
+
+// - замініть текст параграфа з id 'content' на будь-який інший
+// b.innerText='будь-який інший'
+
+// - замініть текст параграфа з id 'rules' на будь-який інший
+// rules.innerText=' будь-який інший'
+
+// - змініть кожному елементу колір фону на червоний
+// b.style.backgroundColor='red'
+// rules.style.backgroundColor='red'
+
+// - змініть кожному елементу колір тексту на синій
+// b.style.color='blue';
+// rules.style.color='blue';
+
+// - отримати весь список класів елемента з id=rules і вивести їх в console.log
+// console.log(rules)
+
+// - отримати всі елементи з класом fc_rules
+// let a=document.getElementsByClassName('fc_rules');
+// console.log(a);
+
+// - поміняти колір тексту у всіх елементів fc_rules на червоний
+// a.style.color='red';
